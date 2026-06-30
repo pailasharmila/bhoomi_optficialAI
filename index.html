@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BhoomiAI</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+
+    <div class="background-overlay"></div>
+
+    <main class="home-container">
+
+        <!-- LEFT PANEL -->
+
+        <section class="voice-panel">
+
+            <div class="voice-wrapper">
+
+                <div class="voice-wave left-wave">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <button id="micBtn" class="mic-button">
+                    <i data-lucide="mic"></i>
+                </button>
+
+                <div class="voice-wave right-wave">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+            </div>
+
+            <h2>Tap to Speak</h2>
+
+            <p>
+                Ask anything about your crops,<br>
+                soil or farming.
+            </p>
+
+            <div class="voice-status" id="voiceStatus">
+                Ready
+            </div>
+
+        </section>
+
+        <!-- RIGHT PANEL -->
+
+        <section class="upload-panel">
+
+            <div class="upload-card" id="uploadCard">
+
+                <input type="file" id="imageInput" accept="image/*" hidden>
+
+                <div class="upload-content">
+
+                    <div class="upload-icon">
+                        <i data-lucide="cloud-upload"></i>
+                    </div>
+
+                    <h3>Upload Image</h3>
+
+                    <p>Camera or Gallery</p>
+
+                    <button id="uploadBtn" class="upload-btn">
+                        Choose Image
+                    </button>
+
+                </div>
+
+            </div>
+
+            <div class="example-section">
+
+                <h4>Upload Examples</h4>
+
+                <div class="example-grid">
+
+                    <div class="example-item">
+                        <img src="assets/images/leaf.webp" alt="">
+                        <span>Crop Leaf</span>
+                    </div>
+
+                    <div class="example-item">
+                        <img src="assets/images/fruit.jpeg" alt="">
+                        <span>Crop Fruit</span>
+                    </div>
+
+                    <div class="example-item">
+                        <img src="assets/images/soil.jpg" alt="">
+                        <span>Soil</span>
+                    </div>
+
+                    <div class="example-item">
+                        <img src="assets/images/disease.jpg" alt="">
+                        <span>Disease</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- Bottom Navigation -->
+
+    <nav class="bottom-nav">
+
+        <a href="#" class="nav-item active">
+            <i data-lucide="house"></i>
+            <span>Home</span>
+        </a>
+
+        <a href="chat.html" class="nav-item">
+            <i data-lucide="message-circle"></i>
+            <span>Chat</span>
+        </a>
+
+        <a href="profile.html" class="nav-item">
+            <i data-lucide="user"></i>
+            <span>Profile</span>
+        </a>
+
+    </nav>
+
+    <script>
+        lucide.createIcons();
+    </script>
+
+    <script src="js/app.js"></script>
+    <script src="js/home.js"></script>
+
+</body>
+
+</html>

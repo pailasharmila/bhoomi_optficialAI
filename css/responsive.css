@@ -1,0 +1,219 @@
+/* Laptop */
+
+@media (max-width:1200px){
+
+    .voice-panel h2{
+        font-size:36px;
+    }
+
+    .voice-panel p{
+        font-size:20px;
+    }
+
+    .mic-button{
+        width:160px;
+        height:160px;
+    }
+
+    .mic-button svg{
+        width:64px;
+        height:64px;
+    }
+
+    .upload-card{
+        height:360px;
+    }
+
+    .example-item img{
+        width:100px;
+        height:100px;
+    }
+
+}
+
+
+/* Tablet */
+
+@media (max-width:992px){
+
+    body{
+        height:auto;
+    }
+
+    .home-container{
+        height:auto;
+        grid-template-columns:1fr;
+        margin-bottom:20px;
+    }
+
+    .voice-panel{
+        border-right:none;
+        border-bottom:1px solid #e5e5e5;
+        padding:50px 30px;
+    }
+
+    .upload-panel{
+        padding:35px 30px;
+    }
+
+    .upload-card{
+        height:320px;
+    }
+
+    .example-grid{
+        justify-content:center;
+        flex-wrap:wrap;
+        gap:20px;
+    }
+
+    .example-item{
+        flex:none;
+    }
+
+    .bottom-nav{
+        width:92%;
+        height:80px;
+        margin-bottom:20px;
+    }
+
+}
+
+
+/* Mobile */
+
+@media (max-width:768px){
+
+    .home-container{
+        width:95%;
+        border-radius:20px;
+    }
+
+    .voice-wrapper{
+        gap:20px;
+    }
+
+    .voice-wave{
+        display:none;
+    }
+
+    .mic-button{
+        width:130px;
+        height:130px;
+        box-shadow:
+            0 0 0 16px rgba(93,167,60,.10),
+            0 0 0 30px rgba(93,167,60,.06);
+    }
+
+    .mic-button svg{
+        width:52px;
+        height:52px;
+    }
+
+    .voice-panel h2{
+        font-size:28px;
+    }
+
+    .voice-panel p{
+        font-size:17px;
+        line-height:1.6;
+    }
+
+    .upload-card{
+        height:260px;
+    }
+
+    .upload-content h3{
+        font-size:28px;
+    }
+
+    .upload-content p{
+        font-size:18px;
+    }
+
+    .example-section h4{
+        font-size:20px;
+    }
+
+    .example-grid{
+        gap:15px;
+    }
+
+    .example-item img{
+        width:85px;
+        height:85px;
+    }
+
+    .example-item span{
+        font-size:15px;
+    }
+
+    .bottom-nav{
+        height:75px;
+        border-radius:18px;
+    }
+
+    .nav-item span{
+        font-size:14px;
+    }
+
+}
+
+
+/* Small Mobile */
+
+@media (max-width:480px){
+
+    .voice-panel,
+    .upload-panel{
+        padding:25px 18px;
+    }
+
+    .mic-button{
+        width:110px;
+        height:110px;
+    }
+
+    .mic-button svg{
+        width:46px;
+        height:46px;
+    }
+
+    .voice-panel h2{
+        font-size:24px;
+    }
+
+    .voice-panel p{
+        font-size:15px;
+    }
+
+    .upload-card{
+        height:220px;
+    }
+
+    .upload-content h3{
+        font-size:24px;
+    }
+
+    .upload-content p{
+        font-size:16px;
+    }
+
+    .upload-btn{
+        padding:10px 22px;
+        font-size:14px;
+    }
+
+    .example-grid{
+        gap:12px;
+    }
+
+    .example-item img{
+        width:70px;
+        height:70px;
+    }
+
+    .example-item span{
+        font-size:13px;
+    }
+
+}
